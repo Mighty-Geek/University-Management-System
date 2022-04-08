@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    float:left;
+    padding: 10px;
+    height: 50vh;
+    border: 2px solid #ccc;
+    margin: 0.5rem;
+    margin-top: 2.5rem;
+}
+.corner, .video-el{
+    width: 23%;
+}
+.student-corner, .faculty-corner{
+    height: 45%;
+    background-color: #ccc;
+    margin: 0.70rem;
+    border-radius: 5px;
+}
+.student-corner, .faculty-corner p {
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+.c-carousel{
+    width: 47%;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.title{
+    width: 40vw;
+}
+video{
+    padding-bottom: 16%;
+}
+h4{
+    color:#fff;
+    display: flex;
+    justify-content: center;
+}
+.carousel-item img{
+    height: 350px;
+}

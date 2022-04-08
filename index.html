@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Management system</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+            <div class="nav-title">
+                <img src="/img/logo.jpg" height="80px">
+            </div>
+        </div>
+        <div class="nav-btn">
+            <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+
+        <div class="nav-links">
+            <a href="#" target="_blank">Home <i class="fa-solid fa-house"></i></a>
+            <a href="/about.html" target="_blank">About Us <i class="fa-solid fa-user"></i></a>
+        </div>
+    </div>
+    <div class="title">University Management System</div>
+
+    <div class="flash-msg delete"></div>
+    <section class="quick-links">
+        <div class="q-title">Quick Links <i class="fa-solid fa-link"></i></div>
+        <div class="links">
+            <ul class="links-val">
+                <a href="/about.html">
+                    <li>About Us</li>
+                </a>
+                <a href="https://igdtuw.in/IGDTUW/logincheck">
+                    <li>ERP portal</li>
+                </a>
+                <a href="https://igdtuw.ac.in/">
+                    <li>Official IGDTUW website</li>
+                </a>
+                <a href="http://erp.dic-igdtuw.com/erp3/erp2/student_pages/student_login.php">
+                    <li>ERP 3 portal</li>
+                </a>
+                <a href="http://igdtuwonline.in/">
+                    <li>Exam portal</li>
+                </a>
+            </ul>
+        </div>
+    </section>
+    <section class="login">
+        <div class="q-title"> <i class="fa-solid fa-user-check"></i></div>
+        <div class="first-login">
+            <button class="s-login">Student Login <i class="fa-solid fa-arrow-right"></i></button>
+            <button class="f-login">Faculty Login <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="second-login delete">
+            <input id="name-input" type="text" placeholder="Enter Full Name">
+            <input class="submit" type="Submit">
+        </div>
+    </section>
+    <script src="/script.js"></script>
+</body>
+
+</html>
